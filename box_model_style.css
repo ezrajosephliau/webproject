@@ -1,0 +1,53 @@
+/* Accent Colors
+   Accent 1: #4A90E2
+   Accent 2: #D0021B
+*/
+
+h1, h2, h3 {
+    color: #4A90E2; /* Accent 1 */
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; /* No gaps between borders */
+}
+
+th, td {
+    border: 20px solid #D0021B; /* Accent 2 */
+    padding: 10px; 
+}
+
+a {
+    color: #4A90E2; /* Accent 1 */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D0021B; /* Accent 2 */
+}
+
+.p-box-model {
+    background-color: #4A90E2; /* Accent 1 */
+    color: white;
+    width: 300px; 
+    padding: 200px; 
+    border: 20px dashed #D0021B; /* Accent 2, different style and width from table borders */
+    margin: 20px; 
+}
+
+.img-container {
+    background-color: #4A90E2; /* Accent 1 */
+    width: 646px; 
+    padding: 200px; 
+    border: 30px solid #D0021B; 
+    margin: 20px; 
+}
+
+body {
+    padding: 200px; 
+    font-size: 34px; 
+}
